@@ -1,0 +1,43 @@
+{
+  "name": "jcred_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./server.js localhost 3009",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.4",
+    "bcrypt": "^5.1.0",
+    "bootstrap": "^5.2.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dateformat": "^5.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "http-proxy-middleware": "^2.0.6",
+    "http2": "^3.3.7",
+    "init": "^0.1.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.0.1",
+    "next": "^13.1.4",
+    "next.js": "^1.0.3",
+    "node-datetime": "^2.1.2",
+    "nodejs": "^0.0.0",
+    "nodemon": "^2.0.20",
+    "pandas": "^0.0.3",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.7.0",
+    "reactstrap": "^9.1.5",
+    "supervisor": "^0.12.0",
+    "webpack": "^5.75.0"
+  }
+}
