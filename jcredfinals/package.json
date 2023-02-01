@@ -1,0 +1,43 @@
+{
+  "name": "jcredfinals",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "server": "nodemon server/index.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.4",
+    "axios": "^1.2.3",
+    "bcrypt": "^5.1.0",
+    "bootstrap": "^5.2.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dateformat": "^5.0.3",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.4",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "http-proxy-middleware": "^2.0.6",
+    "http2": "^3.3.7",
+    "init": "^0.1.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.0.1",
+    "next": "^13.1.4",
+    "next-auth": "^4.18.8",
+    "next.js": "^1.0.3",
+    "node-datetime": "^2.1.2",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.7.0",
+    "reactstrap": "^9.1.5",
+    "webpack": "^5.75.0"
+  }
+}
